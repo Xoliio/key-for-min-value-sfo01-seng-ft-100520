@@ -3,6 +3,8 @@
 require "pry"
 
   def key_for_min_value(name_hash)
+    person_name = nil
+    person_value = nil  
     name_hash.each do |name|
 
       name.each do |value|

@@ -6,7 +6,7 @@ require "pry"
     person_name = nil
     person_value = nil  
     name_hash.each do |name, value|
-      if person_name = nil || value < person_value
+      if person_name == nil || value < person_value
         person_name = name
         person_value = value 
       end
